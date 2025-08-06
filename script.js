@@ -1,6 +1,5 @@
 let nome = [""];
 let nivel = [""];
-let classificacao = "";
 
 if (nivel < 1000){
     classificacao = "ferro"
@@ -20,7 +19,7 @@ if (nivel < 1000){
     classificacao="radiante"
 }
 
-console.log(`O Herói de nome ${nome} está no nível ${nivel}e na classificação ${classificacao}`);
+console.log(`O Herói de nome ${nome} está no nível ${nivel} e na classificação ${classificacao}`);
 
 
 //O VS Code sugeriu usar template literals (também chamados de template strings) com crase (`) em vez de usar concatenação com +. 
